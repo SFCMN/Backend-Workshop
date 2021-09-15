@@ -34,7 +34,7 @@ namespace BasicCSharp.Common
         Right = 2,
         Top = 4,
         Bottom = 8,
-        LeftAndRight = Left | Right,
+        LeftAndRight = Left | Right, // 0001 | 0010 = 0011
         TopAndBottom = Top | Bottom,
         All = Left | Right | Top | Bottom
     }
